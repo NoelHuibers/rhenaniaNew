@@ -5,7 +5,7 @@ import {
   type NextAuthOptions,
 } from "next-auth";
 import { type Adapter } from "next-auth/adapters";
-import AzureADProvider from "next-auth/providers/discord";
+import AzureADProvider from "next-auth/providers/azure-ad";
 
 import { env } from "~/env";
 import { db } from "~/server/db";
