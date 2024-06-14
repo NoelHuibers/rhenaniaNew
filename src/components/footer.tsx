@@ -7,18 +7,18 @@ const Footer = () => {
         <div className="mb-4 text-gray-500 dark:text-gray-400 md:mb-0">
           <div className="flex flex-row space-x-2">
             <p>Telefon:</p>
-            <a className="hover:underline" href="tel:+4971129738">
+            <Link className="hover:underline" href="tel:+4971129738">
               +49 711 297308
-            </a>
+            </Link>
           </div>
           <div className="flex flex-row space-x-2">
             <p>E-Mail:</p>
-            <a
+            <Link
               className="hover:underline"
               href="mailto:subsenior@rhenania-stuttgart.de"
             >
               subsenior@rhenania-stuttgart.de
-            </a>
+            </Link>
           </div>
         </div>
         <Link
