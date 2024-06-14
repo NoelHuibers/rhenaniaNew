@@ -2,9 +2,9 @@ import Link from "next/link";
 import { IoLogoInstagram, IoMailOutline } from "react-icons/io5";
 import { FaWikipediaW } from "react-icons/fa6";
 
-const Header = () => {
+const HeaderColored = () => {
   return (
-    <header className="flex items-center justify-between bg-gray-900 px-4 py-3 text-white">
+    <header className="flex items-center justify-between bg-red-100 px-4 py-3 text-gray-900">
       <Link className="flex items-center" href="/">
         {/* <UniversityIcon className="h-8 w-8" /> */}
         Rhenania Stuttgart
@@ -35,4 +35,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderColored;
