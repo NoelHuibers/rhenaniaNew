@@ -8,16 +8,18 @@ import Veranstaltungen from "~/components/veranstaltungen";
 
 export default function HomePage() {
   return (
-    <div className="flex min-h-[100dvh] flex-col">
-      <Header />
-      <main className="w-screen">
-        <MainSection />
+    <>
+      <main className="flex w-screen flex-col">
+        <div className="flex h-screen flex-col">
+          <Header />
+          <MainSection />
+        </div>
         <Aktivenbilder />
         <Veranstaltungen />
         <Haus />
         <ContactUs />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

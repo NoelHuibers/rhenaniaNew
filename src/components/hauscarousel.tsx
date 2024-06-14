@@ -23,7 +23,7 @@ const Hauscarousel = () => {
       <CarouselContent>
         <CarouselItem>
           <Image
-            alt="Fraternity House"
+            alt="Rhenanenhaus"
             className="aspect-[2/1] rounded-lg object-cover"
             height={600}
             src="/Haus0.png"
@@ -32,7 +32,7 @@ const Hauscarousel = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            alt="Fraternity House"
+            alt="Rhenanenhaus"
             className="aspect-[2/1] rounded-lg object-cover"
             height={600}
             src="/Haus1.png"
@@ -41,10 +41,46 @@ const Hauscarousel = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            alt="Fraternity House"
+            alt="Rhenanenhaus"
             className="aspect-[2/1] rounded-lg object-cover"
             height={600}
             src="/Haus2.png"
+            width={1200}
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Rhenanenhaus"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/Haus3.png"
+            width={1200}
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Rhenanenhaus"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/Haus4.png"
+            width={1200}
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Rhenanenhaus"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/Haus5.png"
+            width={1200}
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Rhenanenhaus"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/Haus6.gif"
             width={1200}
           />
         </CarouselItem>
