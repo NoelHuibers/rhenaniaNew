@@ -28,7 +28,7 @@ const Aktivenbilder = () => {
           <CarouselContent>
             <CarouselItem>
               <Image
-                alt="Fraternity Event"
+                alt="Aktivenbilder"
                 className="aspect-[2/1] rounded-lg object-cover"
                 height={600}
                 src="/0.png"
@@ -37,7 +37,7 @@ const Aktivenbilder = () => {
             </CarouselItem>
             <CarouselItem>
               <Image
-                alt="Fraternity Event"
+                alt="Aktivenbilder"
                 className="aspect-[2/1] rounded-lg object-cover"
                 height={600}
                 src="/1.jpg"
@@ -46,7 +46,7 @@ const Aktivenbilder = () => {
             </CarouselItem>
             <CarouselItem>
               <Image
-                alt="Fraternity Event"
+                alt="Aktivenbilder"
                 className="aspect-[2/1] rounded-lg object-cover"
                 height={600}
                 src="/2.png"

@@ -10,10 +10,18 @@ const Header = () => {
         Rhenania Stuttgart
       </Link>
       <div className="flex items-center space-x-4">
-        <Link className="hover:text-gray-400" href="#" target="_blank">
+        <Link
+          className="hover:text-gray-400"
+          href="https://www.instagram.com/corps.rhenania/"
+          target="_blank"
+        >
           <IoLogoInstagram className="h-6 w-6" />
         </Link>
-        <Link className="hover:text-gray-400" href="#" target="_blank">
+        <Link
+          className="hover:text-gray-400"
+          href="https://de.wikipedia.org/wiki/Corps_Rhenania_Stuttgart"
+          target="_blank"
+        >
           <FaWikipediaW className="h-6 w-6" />
         </Link>
         <Link
