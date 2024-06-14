@@ -54,8 +54,8 @@ const Aktivenbilder = () => {
               />
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden md:block" />
+          <CarouselNext className="hidden md:block" />
         </Carousel>
       </div>
     </section>
