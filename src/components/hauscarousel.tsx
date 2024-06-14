@@ -81,12 +81,13 @@ const Hauscarousel = () => {
             className="aspect-[2/1] rounded-lg object-cover"
             height={600}
             src="/Haus6.gif"
+            unoptimized
             width={1200}
           />
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="hidden md:block" />
+      <CarouselNext className="hidden md:block" />
     </Carousel>
   );
 };
