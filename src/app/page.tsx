@@ -1,4 +1,5 @@
 import Aktivenbilder from "~/components/aktivenbilder";
+import ContactUs from "~/components/contactus";
 import Footer from "~/components/footer";
 import Haus from "~/components/haus";
 import Header from "~/components/header";
@@ -14,6 +15,7 @@ export default function HomePage() {
         <Aktivenbilder />
         <Veranstaltungen />
         <Haus />
+        <ContactUs />
       </main>
       <Footer />
     </div>
