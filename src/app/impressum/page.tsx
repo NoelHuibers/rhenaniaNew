@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div className="flex h-screen w-screen flex-col">
       <HeaderColored />
-      <main className="flex h-full w-full items-center justify-center bg-slate-100 dark:bg-gray-800 md:py-24 lg:py-32">
+      <main className="flex h-full w-full items-center justify-center bg-slate-100 dark:bg-gray-800">
         <Impressum />
       </main>
       <FooterColored />

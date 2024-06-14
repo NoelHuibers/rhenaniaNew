@@ -25,6 +25,9 @@ export const env = createEnv({
     AZURE_AD_CLIENT_ID: z.string(),
     AZURE_AD_CLIENT_SECRET: z.string(),
     AZURE_AD_TENANT_ID: z.string(),
+    GMAIL: z.string(),
+    GMAIL_PASSWORD: z.string(),
+    TOMAIL: z.string(),
   },
 
   /**
@@ -48,6 +51,9 @@ export const env = createEnv({
     AZURE_AD_CLIENT_ID: process.env.AZURE_AD_CLIENT_ID,
     AZURE_AD_CLIENT_SECRET: process.env.AZURE_AD_CLIENT_SECRET,
     AZURE_AD_TENANT_ID: process.env.AZURE_AD_TENANT_ID,
+    GMAIL: process.env.GMAIL,
+    GMAIL_PASSWORD: process.env.GMAIL_PASSWORD,
+    TOMAIL: process.env.TOMAIL,
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
