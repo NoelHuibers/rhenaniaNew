@@ -1,10 +1,10 @@
-import Aktivenbilder from "~/components/aktivenbilder";
-import ContactUs from "~/components/contactus";
+import Aktivenbilder from "~/components/landingpage/aktivenbilder";
+import ContactUs from "~/components/landingpage/contactus";
 import Footer from "~/components/footer";
-import Haus from "~/components/haus";
+import Haus from "~/components/landingpage/haus";
 import Header from "~/components/header";
-import MainSection from "~/components/mainsection";
-import Veranstaltungen from "~/components/veranstaltungen";
+import MainSection from "~/components/landingpage/mainsection";
+import Veranstaltungen from "~/components/landingpage/veranstaltungen";
 
 export default function HomePage() {
   return (

@@ -1,6 +1,6 @@
 import FooterColored from "~/components/footercolored";
 import HeaderColored from "~/components/headercolored";
-import Impressum from "~/components/impressum";
+import Impressum from "./impressum";
 
 export default function HomePage() {
   return (
