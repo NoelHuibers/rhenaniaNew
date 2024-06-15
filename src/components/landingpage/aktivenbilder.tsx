@@ -49,8 +49,10 @@ const Aktivenbilder = () => {
           />
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious className="hidden md:block" />
-      <CarouselNext className="hidden md:block" />
+      <div className="hidden md:block">
+        <CarouselPrevious />
+        <CarouselNext />
+      </div>
     </Carousel>
   );
 };
