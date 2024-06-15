@@ -1,4 +1,4 @@
-import Aktivenbilder from "~/components/landingpage/aktivenbilder";
+import Aktive from "~/components/landingpage/aktive";
 import ContactUs from "~/components/landingpage/contactus";
 import Footer from "~/components/footer";
 import Haus from "~/components/landingpage/haus";
@@ -14,7 +14,7 @@ export default function HomePage() {
           <Header />
           <MainSection />
         </div>
-        <Aktivenbilder />
+        <Aktive />
         <Veranstaltungen />
         <Haus />
         <ContactUs />
