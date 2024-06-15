@@ -30,6 +30,7 @@ const Footer = () => {
         <Link
           className="font-bold text-gray-500 hover:underline dark:text-gray-400"
           href="/impressum"
+          prefetch={false}
         >
           Impressum
         </Link>
