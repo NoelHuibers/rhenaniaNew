@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-gray-100 px-4 py-4 dark:bg-gray-900 md:px-28 md:py-6">
-      <div className="flex flex-col space-y-2 px-8 text-gray-500 dark:text-gray-400 md:flex-row md:items-center md:justify-between md:space-y-0">
+      <div className="flex flex-col space-y-2 pl-8 text-gray-500 dark:text-gray-400 md:flex-row md:items-center md:justify-between md:space-y-0 md:px-8">
         <div className="flex flex-col md:flex-col">
           <p className="font-bold">Kontakt</p>
           <div className="flex space-x-1 md:space-x-2">
@@ -13,7 +13,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex space-x-1 md:space-x-2">
-            <p>E-Mail:</p>
+            <p className="whitespace-nowrap">E-Mail:</p>
             <Link
               className="hover:underline"
               href="mailto:subsenior@rhenania-stuttgart.de"
