@@ -1,5 +1,5 @@
-import FooterColored from "~/components/footercolored";
-import HeaderColored from "~/components/headercolored";
+import FooterColored from "~/components/footer/footercolored";
+import HeaderColored from "~/components/header/headercolored";
 import ContactForm from "./contactform";
 import { Toaster } from "sonner";
 

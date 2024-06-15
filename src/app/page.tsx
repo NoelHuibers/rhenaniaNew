@@ -1,8 +1,8 @@
 import Aktive from "~/components/landingpage/aktive";
 import ContactUs from "~/components/landingpage/contactus";
-import Footer from "~/components/footer";
+import Footer from "~/components/footer/footer";
 import Haus from "~/components/landingpage/haus";
-import Header from "~/components/header";
+import Header from "~/components/header/header";
 import MainSection from "~/components/landingpage/mainsection";
 import Veranstaltungen from "~/components/landingpage/veranstaltungen";
 
