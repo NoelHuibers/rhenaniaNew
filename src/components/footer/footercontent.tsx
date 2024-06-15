@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footercontent = () => {
   return (
-    <div className="flex flex-col space-y-2 pl-6 text-gray-500 dark:text-gray-400 md:flex-row md:items-center md:justify-between md:space-y-0 md:px-8">
+    <div className="flex flex-col space-y-2 pl-4 text-gray-500 dark:text-gray-400 md:flex-row md:items-center md:justify-between md:space-y-0 md:px-8">
       <div className="flex flex-col md:flex-col">
         <p className="font-bold">Kontakt</p>
         <div className="flex space-x-1 md:space-x-2">
