@@ -1,12 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 import { IoLogoInstagram, IoMailOutline } from "react-icons/io5";
 import { FaWikipediaW } from "react-icons/fa6";
 
 const HeaderContent = () => {
   return (
     <>
-      <Link className="flex items-center" href="/">
-        {/* <UniversityIcon className="h-8 w-8" /> */}
+      <Link className="items-cente flex" href="/">
+        {/* <Image
+          src="/zirkel.svg"
+          alt="Corps Rhenania Stuttgart Zirkel"
+          width={25}
+          height={25}
+        /> */}
         Rhenania Stuttgart
       </Link>
       <div className="flex items-center space-x-4">
