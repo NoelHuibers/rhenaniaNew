@@ -13,12 +13,12 @@ const Veranstaltungen = () => {
           <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md">
             <h3 className="text-lg font-bold">165. Stiftungsfest</h3>
             <p className="text-sm text-gray-500">
-              Feier die Gründung des Corps Rhenania Stuttgart und genieße mit
-              uns unvergessliche Abende.
+              Treff uns auf dem Wasen bei einer Maß einem Hendl und einer mega
+              Stimmung.
             </p>
             <div className="flex items-center justify-between">
               <div className="text-sm font-medium text-[#003366]">
-                21.-23. Juli 2023
+                1. Oktober 2024
               </div>
             </div>
           </div>
@@ -29,18 +29,19 @@ const Veranstaltungen = () => {
             </p>
             <div className="flex items-center justify-between">
               <div className="text-sm font-medium text-[#003366]">
-                11.-13. Oktober 2024
+                4.-6. Oktober 2024
               </div>
             </div>
           </div>
           <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md">
             <h3 className="text-lg font-bold">Vortragsabend</h3>
             <p className="text-sm text-gray-500">
-              Höre ein spannden Vortrag über Quanten Computing von iaCB Huibers
+              Höre ein spannden Vortrag über Quanten Computing für
+              Leichtbaudesigns von iaCB Huibers.
             </p>
             <div className="flex items-center justify-between">
               <div className="text-sm font-medium text-[#003366]">
-                18. Oktober
+                11. November
               </div>
             </div>
           </div>
