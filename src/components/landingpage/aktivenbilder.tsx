@@ -48,6 +48,24 @@ const Aktivenbilder = () => {
             width={1200}
           />
         </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Aktivenbilder"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/3.jpg"
+            width={1200}
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            alt="Aktivenbilder"
+            className="aspect-[2/1] rounded-lg object-cover"
+            height={600}
+            src="/4.jpg"
+            width={1200}
+          />
+        </CarouselItem>
       </CarouselContent>
       <div className="hidden md:block">
         <CarouselPrevious />
