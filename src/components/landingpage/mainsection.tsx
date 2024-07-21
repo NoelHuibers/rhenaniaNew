@@ -5,7 +5,7 @@ import Zirkel from "./zirkel";
 const MainSection = () => {
   return (
     <section
-      className="flex flex-1 items-center justify-center bg-cover bg-center pb-44 text-slate-50"
+      className="flex flex-1 items-center justify-center bg-cover bg-center text-slate-50"
       style={{
         backgroundImage: `url('/stifi.jpg')`,
       }}

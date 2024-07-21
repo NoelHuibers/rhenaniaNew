@@ -19,7 +19,7 @@ const Zirkel = () => {
     return () => anim.destroy();
   }, []);
 
-  return <div ref={animationContainer} className="h-10/12 w-10/12 "></div>;
+  return <div ref={animationContainer}></div>;
 };
 
 export default Zirkel;
