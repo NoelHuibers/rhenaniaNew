@@ -15,9 +15,9 @@ const Footercontent = () => {
           <p className="whitespace-nowrap">E-Mail:</p>
           <Link
             className="hover:underline"
-            href="mailto:subsenior@rhenania-stuttgart.de"
+            href="mailto:corps@rhenania-stuttgart.de"
           >
-            subsenior@rhenania-stuttgart.de
+            corps@rhenania-stuttgart.de
           </Link>
         </div>
       </div>

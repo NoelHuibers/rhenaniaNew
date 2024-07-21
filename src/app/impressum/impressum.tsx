@@ -18,9 +18,9 @@ const Impressum = () => {
         </Link>
         <Link
           className="text-gray-500 dark:text-gray-400"
-          href="mailto:subsenior@rhenania-stuttgart.de"
+          href="mailto:corps@rhenania-stuttgart.de"
         >
-          Email: subsenior@rhenania-stuttgart.de
+          Email: corps@rhenania-stuttgart.de
         </Link>
         <p className="text-gray-500 dark:text-gray-400">
           Verein Alter Herren des Corps Rhenania Stuttgart e.V.
@@ -29,7 +29,7 @@ const Impressum = () => {
           Vertretungsberechtigt: Adrian Sigg
         </p>
         <Link
-          href="mailto:subsenior@rhenania-stuttgart.de"
+          href="mailto:corps@rhenania-stuttgart.de"
           className="inline-flex h-10 w-fit items-center justify-center self-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
         >
           Schreib uns

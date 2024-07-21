@@ -32,7 +32,7 @@ const HeaderContent = () => {
         </Link>
         <Link
           className="hover:text-gray-400"
-          href="mailto:subsenior@rhenania-stuttgart.de"
+          href="mailto:corps@rhenania-stuttgart.de"
         >
           <IoMailOutline className="h-6 w-6" />
         </Link>
