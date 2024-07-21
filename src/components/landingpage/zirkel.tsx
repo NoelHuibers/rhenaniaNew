@@ -11,7 +11,7 @@ const Zirkel = () => {
     const anim = lottie.loadAnimation({
       container: animationContainer.current,
       renderer: "svg",
-      loop: true,
+      loop: false,
       autoplay: true,
       path: "animation.json",
     });
@@ -19,7 +19,7 @@ const Zirkel = () => {
     return () => anim.destroy();
   }, []);
 
-  return <div ref={animationContainer}></div>;
+  return <div ref={animationContainer} className="w-1/2"></div>;
 };
 
 export default Zirkel;
