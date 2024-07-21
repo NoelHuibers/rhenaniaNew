@@ -10,14 +10,21 @@ export default function HomePage() {
   return (
     <>
       <main className="flex w-screen flex-col">
-        <div className="flex h-screen flex-col">
+        <div
+          className="sticky top-0 h-screen bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/stifi.jpg')`,
+          }}
+        >
           <Header />
           <MainSection />
         </div>
-        <Aktive />
-        <Veranstaltungen />
-        <Haus />
-        <ContactUs />
+        <div className="relative z-10 bg-white">
+          <Aktive />
+          <Veranstaltungen />
+          <Haus />
+          <ContactUs />
+        </div>
       </main>
       <Footer />
     </>
