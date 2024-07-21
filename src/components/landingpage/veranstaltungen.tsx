@@ -11,7 +11,7 @@ const Veranstaltungen = () => {
         </div>
         <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
           <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md md:h-44">
-            <h3 className="text-lg font-bold">165. Stiftungsfest</h3>
+            <h3 className="text-lg font-bold">Wasen</h3>
             <p className="text-sm text-gray-500">
               Treff uns auf dem Wasen bei einer Maß einem Hendl und einer mega
               Stimmung.
