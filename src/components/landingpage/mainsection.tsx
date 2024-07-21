@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-import CorpsRhenania from "./corps";
+import Zirkel from "./zirkel";
 
 const MainSection = () => {
   return (
@@ -12,7 +11,7 @@ const MainSection = () => {
       }}
     >
       <div className="relative w-auto overflow-hidden">
-        <CorpsRhenania />
+        <Zirkel />
       </div>
     </section>
   );

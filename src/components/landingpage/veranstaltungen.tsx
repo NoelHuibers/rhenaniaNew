@@ -10,7 +10,7 @@ const Veranstaltungen = () => {
           </div>
         </div>
         <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
-          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md">
+          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md md:h-44">
             <h3 className="text-lg font-bold">165. Stiftungsfest</h3>
             <p className="text-sm text-gray-500">
               Treff uns auf dem Wasen bei einer Maß einem Hendl und einer mega
@@ -22,8 +22,8 @@ const Veranstaltungen = () => {
               </div>
             </div>
           </div>
-          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md">
-            <h3 className="text-lg font-bold">Hüttenwocheende</h3>
+          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md md:h-44">
+            <h3 className="text-lg font-bold">Hüttenwochenende</h3>
             <p className="text-sm text-gray-500">
               Verbringe ein Wochenende in den Bergen und genieße die Natur.
             </p>
@@ -33,11 +33,11 @@ const Veranstaltungen = () => {
               </div>
             </div>
           </div>
-          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md">
+          <div className="grid gap-1 rounded-lg bg-white p-6 shadow-md md:h-44">
             <h3 className="text-lg font-bold">Vortragsabend</h3>
             <p className="text-sm text-gray-500">
-              Höre ein spannden Vortrag über Quanten Computing für
-              Leichtbaudesigns von iaCB Huibers.
+              Ein spannender Vortrag über Quanten Computing für Leichtbaudesigns
+              von iaCB Huibers.
             </p>
             <div className="flex items-center justify-between">
               <div className="text-sm font-medium text-[#003366]">
