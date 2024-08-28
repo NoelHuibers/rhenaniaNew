@@ -39,7 +39,7 @@ const ContactButton = () => {
         href="/contact"
         className="flex h-full w-full items-center justify-center bg-transparent"
       >
-        Bewerb dich
+        Bewirb dich
       </Link>
     </motion.div>
   );
