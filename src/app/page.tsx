@@ -9,9 +9,7 @@ import Veranstaltungen from "~/components/landingpage/veranstaltungen";
 export default function HomePage() {
   return (
     <>
-      <header className="fixed top-0 z-50 w-full">
-        <Header />
-      </header>
+      <Header />
       <main className="flex w-screen flex-col">
         <div
           className="sticky top-0 h-screen bg-cover bg-center"
