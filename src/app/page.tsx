@@ -9,6 +9,9 @@ import Veranstaltungen from "~/components/landingpage/veranstaltungen";
 export default function HomePage() {
   return (
     <>
+      <header className="fixed top-0 z-50 w-full">
+        <Header />
+      </header>
       <main className="flex w-screen flex-col">
         <div
           className="sticky top-0 h-screen bg-cover bg-center"
@@ -16,7 +19,6 @@ export default function HomePage() {
             backgroundImage: `url('/stifi.jpg')`,
           }}
         >
-          <Header />
           <MainSection />
         </div>
         <div className="relative z-10 bg-white">
