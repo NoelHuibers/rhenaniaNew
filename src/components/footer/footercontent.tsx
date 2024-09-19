@@ -26,13 +26,22 @@ const Footercontent = () => {
         <p>Relenbergstraße 8</p>
         <p>70174 Stuttgart</p>
       </div>
-      <Link
-        className="font-bold text-gray-500 hover:underline dark:text-gray-400"
-        href="/impressum"
-        prefetch={false}
-      >
-        Impressum
-      </Link>
+      <div className="flex space-x-2 md:flex-col md:space-x-0">
+        <Link
+          className="font-bold text-gray-500 hover:underline dark:text-gray-400"
+          href="/impressum"
+          prefetch={false}
+        >
+          Impressum
+        </Link>
+        <Link
+          className="font-bold text-gray-500 hover:underline dark:text-gray-400"
+          href="/datenschutz"
+          prefetch={false}
+        >
+          Datenschutz
+        </Link>
+      </div>
     </div>
   );
 };
