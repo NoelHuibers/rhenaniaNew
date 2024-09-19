@@ -40,7 +40,7 @@ const Datenschutzerklaerung = () => {
         <p className="text-gray-500 dark:text-gray-400">
           Unsere Website verwendet Vercel Analytics zur Analyse des
           Nutzungsverhaltens. Die Daten werden anonymisiert erfasst und dienen
-          zur Verbesserung unseres Angebots.
+          zur Verbesserung unserer Website.
         </p>
 
         <h3 className="mt-4 text-2xl font-bold tracking-tighter md:text-3xl">
