@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "~/components/ui/button";
@@ -23,6 +23,8 @@ import {
 import { Textarea } from "~/components/ui/textarea";
 
 const ContactForm = () => {
+  const [formLoadTime, setFormLoadTime] = useState(0);
+
   const [state, formAction] = useFormState(onSubmitAction, {
     message: "",
   });
@@ -40,6 +42,10 @@ const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
+    setFormLoadTime(Date.now());
+  }, []);
+
+  useEffect(() => {
     if (form === null) return;
     if (state?.message === "Success") {
       toast.success("E-Mail wurde versandt.", { duration: 5000 });
@@ -51,6 +57,17 @@ const ContactForm = () => {
       toast.error("Eingabe ist ungültig. Bitte überprüfen Sie die Felder.");
     }
   }, [form, state]);
+
+  const handleSubmit = (evt: React.FormEvent) => {
+    evt.preventDefault();
+
+    const formData = new FormData(formRef.current!);
+    formData.append("formLoadTime", formLoadTime.toString());
+
+    void form.handleSubmit(() => {
+      formAction(formData);
+    })(evt);
+  };
 
   return (
     <section className="flex flex-col items-center justify-center space-y-2 dark:bg-gray-800 md:w-3/4">
@@ -67,12 +84,7 @@ const ContactForm = () => {
           className="flex w-3/4 flex-col md:w-1/2"
           action={formAction}
           ref={formRef}
-          onSubmit={(evt) => {
-            evt.preventDefault();
-            void form.handleSubmit(() => {
-              formAction(new FormData(formRef.current!));
-            })(evt);
-          }}
+          onSubmit={handleSubmit}
         >
           <FormField
             control={form.control}

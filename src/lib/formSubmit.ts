@@ -16,24 +16,20 @@ export async function onSubmitAction(
   const parsed = contactFormSchema.safeParse(formData);
 
   if (!parsed.success) {
-    const fields: Record<string, string> = {};
-    for (const key of Object.keys(formData)) {
-      if (formData[key] !== undefined) {
-        fields[key] = formData[key]?.toString() ?? "";
-      }
-    }
-    return {
-      message: "Falsche Eingabe",
-      fields,
-      issues: parsed.error.issues.map((issue) => issue.message),
-    };
+    return { message: "Falsche Eingabe" };
   }
 
   if (parsed.data.honeypot !== undefined && parsed.data.honeypot !== "") {
-    return {
-      message: "Falsche Eingabe Email",
-      fields: parsed.data,
-    };
+    return { message: "Falsche Eingabe Email" };
+  }
+
+  const formLoadTime = Number(formData.formLoadTime);
+
+  const currentTime = Date.now();
+
+  if (currentTime - formLoadTime < 3000) {
+    console.log("Suspicious fast form submission, ignoring.");
+    return { message: "Success" };
   }
 
   await sendEmail(parsed.data.name, parsed.data.email, parsed.data.message);
