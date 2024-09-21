@@ -12,7 +12,7 @@ const CorpsSection = () => {
     <section className="w-full bg-gray-100 bg-gradient-to-br py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <h2 className="pb-12 text-center text-3xl font-bold tracking-tighter  sm:text-4xl md:text-5xl">
-          Corps Rhenania
+          Das Corps
         </h2>
         <div className="grid gap-8 pb-12 md:grid-cols-3">
           <PillarCard
