@@ -5,6 +5,7 @@ import Haus from "~/components/landingpage/haus";
 import Header from "~/components/header/header";
 import MainSection from "~/components/landingpage/mainsection";
 import Veranstaltungen from "~/components/landingpage/veranstaltungen";
+import CorpsSection from "~/components/landingpage/corpssection";
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
           <Aktive />
           <Veranstaltungen />
           <Haus />
+          <CorpsSection />
           <ContactUs />
         </div>
       </main>
