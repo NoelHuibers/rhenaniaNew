@@ -32,6 +32,11 @@ export async function onSubmitAction(
     return { message: "Success" };
   }
 
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  if (urlRegex.test(parsed.data.message)) {
+    return { message: "Success" };
+  }
+
   await sendEmail(parsed.data.name, parsed.data.email, parsed.data.message);
 
   return { message: "Success" };

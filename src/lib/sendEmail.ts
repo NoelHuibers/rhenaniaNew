@@ -14,7 +14,7 @@ export async function sendEmail(name: string, email: string, message: string) {
   const mailOptions = {
     from: env.GMAIL,
     to: env.TOMAIL,
-    subject: "Email von seppis.fit",
+    subject: "Email von Rhenania-stuttgart.de",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
