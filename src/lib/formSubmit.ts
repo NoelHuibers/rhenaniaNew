@@ -34,6 +34,7 @@ export async function onSubmitAction(
 
   const urlRegex = /(https?:\/\/[^\s]+)/g;
   if (urlRegex.test(parsed.data.message)) {
+    console.log("Suspicious URL in message, ignoring.");
     return { message: "Success" };
   }
 
